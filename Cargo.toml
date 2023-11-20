@@ -1,8 +1,15 @@
 [package]
-name = "foo"
+name = "hive"
 version = "0.1.0"
 edition = "2021"
+authors = ["NTBBloodbath", "MordechaiHadad"]
+description = "An experimental, modern and friendly CI engine"
+repository = "https://github.com/NTBBloodbath/hive-ci"
+readme = "README.md"
+license = "Apache-2.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+serde = "1.0.192"
+toml = "0.8.8"
